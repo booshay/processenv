@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-import * as process from 'process';
+//import * as process from 'process';
 
 // Serve only the static files form the dist directory
 app.use(express.static('./dist/processenv'));
